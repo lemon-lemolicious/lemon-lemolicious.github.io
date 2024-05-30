@@ -227,3 +227,7 @@ document.addEventListener("DOMContentLoaded",()=>{
      ui.cartLogic();
  });
 });
+
+document.body.addEventListener("click", function (evt) {
+    document.getElementById("myInput").value = Storage.getCart();
+});
