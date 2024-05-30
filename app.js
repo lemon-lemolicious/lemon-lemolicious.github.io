@@ -229,5 +229,5 @@ document.addEventListener("DOMContentLoaded",()=>{
 });
 
 document.body.addEventListener("click", function (evt) {
-    document.getElementById("autoSetTheValue").value = Storage.getCart();
+    document.getElementById("autoSetTheValue").value = JSON.stringify(Storage.getCart());
 });
