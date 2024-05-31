@@ -139,7 +139,7 @@ class UI{
       //clear cart button
       clearCartBtn.addEventListener("click",()=>{
         document.getElementById("autoSetOrderDetails").value = JSON.stringify(Storage.getCart());
-        document.getElementById("autoSetOrderTotal").value = parseFloat (tempTotal.toFixed(2));
+        document.getElementById("autoSetOrderTotal").value = cartTotal.innerText;
         this.clearCart();
     });
      //cart functionality 
