@@ -231,3 +231,9 @@ document.addEventListener("DOMContentLoaded",()=>{
 document.body.addEventListener("click", function (evt) {
     document.getElementById("autoSetTheValue").value = JSON.stringify(Storage.getCart());
 });
+
+var gForm = document.getElementById("gForm");
+document.getElementById("gFormSubmit").addEventListener("click", function () {
+    clearCart();
+    gForm.submit();
+});
