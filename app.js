@@ -140,9 +140,11 @@ class UI{
       clearCartBtn.addEventListener("click",()=>{
         document.getElementById("autoSetOrderDetails").value = JSON.stringify(Storage.getCart());
         document.getElementById("autoSetOrderTotal").value = cartTotal.innerText;
-        document.getElementById("gForm").reset();
-        document.getElementById("cartContent").innerHTML = "";
         this.clearCart();
+        setTimeout(function(){
+            document.getElementById("gForm").reset();
+            document.getElementById("cartContent").innerHTML = "";
+        }, 3000);
     });
      //cart functionality 
       cartContent.addEventListener ('click',event=>{
