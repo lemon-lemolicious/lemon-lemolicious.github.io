@@ -141,9 +141,11 @@ class UI{
         document.getElementById("autoSetOrderDetails").value = JSON.stringify(Storage.getCart());
         document.getElementById("autoSetOrderTotal").value = cartTotal.innerText;
         this.clearCart();
+        document.getElementById("orderConfirmation").style.display = "block";
         setTimeout(function(){
             document.getElementById("gForm").reset();
             document.getElementById("cartContent").innerHTML = "";
+            document.getElementById("orderConfirmation").style.display = "none";
         }, 3000);
     });
      //cart functionality 
