@@ -137,8 +137,9 @@ class UI{
   }
   cartLogic(){
       //clear cart button
-      document.getElementById("autoSetTheValue").value = JSON.stringify(Storage.getCart());
-      clearCartBtn.addEventListener("click",()=>{this.clearCart();
+      clearCartBtn.addEventListener("click",()=>{
+        document.getElementById("autoSetTheValue").value = JSON.stringify(Storage.getCart());
+        this.clearCart();
     });
      //cart functionality 
       cartContent.addEventListener ('click',event=>{
