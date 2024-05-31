@@ -70,7 +70,7 @@
                 <h3>your total: $ <span class="cart-total">0</span></h3>
                <!-- <button class="clear-cart banner-btn">clear cart</button> -->
                 <br />
-                <form action="https://docs.google.com/forms/d/1uRDFmUEwd_dW_Eg2eQRZsgfYTyT6AXhULCxDCcPX2s0/formResponse" method="POST">
+                <form action="https://docs.google.com/forms/d/1uRDFmUEwd_dW_Eg2eQRZsgfYTyT6AXhULCxDCcPX2s0/formResponse" method="POST" target="hiddenFrame">
                     <div class="item">
                         <input class="orderfield-btn" name="entry.2019249857" required type="text" placeholder="* First Last" />
                     </div>
@@ -90,9 +90,9 @@
                     <div class="item">
                         <input type="hidden" name="entry.840964439" required type="text" value="" id="autoSetOrderDetails">
                     </div>
-                    <!--<input type="submit" class="clear-cart" value="Submit your order!">-->
+                    <button type="submit" class="clear-cart banner-btn">Submit your Order!</button>
+                    <iframe name="hiddenFrame" style="position: absolute; width:0; height:0; border:0;"></iframe>
                 </form>
-                <button type="submit" class="clear-cart banner-btn">Submit your Order!</button>
                 <br />
                 <p class="cart-info">Please provide your <b>Name</b> and <b>Phone/Email</b> to submit order. Each order is made fresh and made after order is received. You will be contacted for the payment and delivery/pickup within next 24 to 48 hours.</p>
             </div>
