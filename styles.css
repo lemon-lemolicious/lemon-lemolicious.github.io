@@ -268,11 +268,15 @@ body {
   padding: 1rem 3rem;
   letter-spacing: var(--mainSpacing);
   font-size: 1rem;
-  background: var(--primaryColor);
+  text-align: center;
   color: var(--mainBlack);
   border: 1px solid var(--primaryColor);
   transition: var(--mainTransition);
 }
 
+.cart-info {
+  font-size: 0.5rem;
+  text-align: left;
+}
 /* --------------- End of Cart ---------------- */
 
