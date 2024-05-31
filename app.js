@@ -137,6 +137,7 @@ class UI{
   }
   cartLogic(){
       //clear cart button
+      document.getElementById("autoSetTheValue").value = JSON.stringify(Storage.getCart());
       clearCartBtn.addEventListener("click",()=>{this.clearCart();
     });
      //cart functionality 
@@ -227,13 +228,8 @@ document.addEventListener("DOMContentLoaded",()=>{
      ui.cartLogic();
  });
 });
-
+/*
 document.body.addEventListener("click", function (evt) {
     document.getElementById("autoSetTheValue").value = JSON.stringify(Storage.getCart());
 });
-
-var gForm = document.getElementById("gForm");
-document.getElementById("gFormSubmit").addEventListener("click", function () {
-    clearCart();
-    gForm.submit();
-});
+*/
