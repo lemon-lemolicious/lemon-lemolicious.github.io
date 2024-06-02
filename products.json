@@ -36,7 +36,7 @@
       "sys": { "id": "5" },
       "fields": {
         "title": "Hint of Jalapeno",
-        "price": 6,
+        "price": 7,
         "image": { "fields": { "file": { "url": "./images/jalapeno.png" } } }
       }
     },
