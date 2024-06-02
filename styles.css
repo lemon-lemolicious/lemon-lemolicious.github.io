@@ -227,7 +227,7 @@ body {
   margin: 1.5rem 0;
 }
 .cart-item img {
-  width: 75px;
+  /* width: 75px; */
   height: 75px;
 }
 .cart-item h4 {

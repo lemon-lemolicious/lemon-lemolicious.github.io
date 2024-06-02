@@ -3,16 +3,16 @@
     {
       "sys": { "id": "1" },
       "fields": {
-        "title": "THE Original",
-        "price": 6,
+        "title": "The Original",
+        "price": 7,
         "image": { "fields": { "file": { "url": "./images/original.png" } } }
       }
     },
     {
       "sys": { "id": "2" },
       "fields": {
-        "title": "Ginger String",
-        "price": 6,
+        "title": "Sweet Ginger",
+        "price": 7,
         "image": { "fields": { "file": { "url": "./images/ginger.png" } } }
       }
     },
@@ -28,7 +28,7 @@
       "sys": { "id": "4" },
       "fields": {
         "title": "Mango Tango",
-        "price": 6,
+        "price": 8,
         "image": { "fields": { "file": { "url": "./images/mango.png" } } }
       }
     },
