@@ -296,11 +296,12 @@ body {
 
 
  .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  position: sticky;
+  top: 0;
+  height: 60px;
   width: 100%;
-  background-color: yellow;
-  color: black;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  background: rgb(231, 226, 221);
+  z-index: 1;
  }
