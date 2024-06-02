@@ -280,3 +280,18 @@ body {
 }
 /* --------------- End of Cart ---------------- */
 
+.inf_container {
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+ }
+ 
+ .img {
+   max-width: 100%;
+   max-height:100%;
+ }
+ 
+ .inf_text {
+   font-size: 70px;
+ }
