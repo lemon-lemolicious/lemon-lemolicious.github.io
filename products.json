@@ -19,8 +19,8 @@
     {
       "sys": { "id": "3" },
       "fields": {
-        "title": "Mint Fresh",
-        "price": 6,
+        "title": "Refreshing Mint",
+        "price": 7,
         "image": { "fields": { "file": { "url": "./images/mint.png" } } }
       }
     },
@@ -35,7 +35,7 @@
     {
       "sys": { "id": "5" },
       "fields": {
-        "title": "Spicy Jalapeno",
+        "title": "Hint of Jalapeno",
         "price": 6,
         "image": { "fields": { "file": { "url": "./images/jalapeno.png" } } }
       }
@@ -44,24 +44,56 @@
       "sys": { "id": "6" },
       "fields": {
         "title": "Tangy Strawberry",
-        "price": 6,
+        "price": 7,
         "image": { "fields": { "file": { "url": "./images/strawberry.png" } } }
       }
     },
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "RED Pomegranate",
-        "price": 7,
+        "title": "Sweet Pomegranate",
+        "price": 8,
         "image": { "fields": { "file": { "url": "./images/pomegranate.png" } } }
       }
     },
     {
-      "sys": { "id": "7" },
+      "sys": { "id": "8" },
       "fields": {
-        "title": "Cumin (Jeera Masala)",
-        "price": 7,
+        "title": "Cumin (Jeera) Masala",
+        "price": 8,
         "image": { "fields": { "file": { "url": "./images/cumin.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "Berry Burst",
+        "price": 8,
+        "image": { "fields": { "file": { "url": "./images/blueberry.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "Assorted 3 Packs",
+        "price": 20,
+        "image": { "fields": { "file": { "url": "./images/3packs.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "Assorted 5 Packs",
+        "price": 30,
+        "image": { "fields": { "file": { "url": "./images/5packs.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "Assorted 10 Packs",
+        "price": 50,
+        "image": { "fields": { "file": { "url": "./images/10packs.png" } } }
       }
     }
   ]
