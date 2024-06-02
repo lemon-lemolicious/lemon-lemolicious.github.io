@@ -57,7 +57,7 @@ body {
 /* --------------- End of Navbar ---------------- */
 /* --------------- Hero ---------------- */
 .hero {
-  min-height: calc(100vh - 60px);
+  /* min-height: calc(100vh - 60px); */
   background: url("./images/lemon.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
@@ -65,7 +65,7 @@ body {
 }
 .banner {
   text-align: center;
-  background: rgba(255, 255, 255, 0.8);
+  /* background: rgba(255, 255, 255, 0.8); */
   display: inline-block;
   padding: 2rem;
 }
