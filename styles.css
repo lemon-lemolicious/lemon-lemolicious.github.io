@@ -71,7 +71,7 @@ body {
 }
 .banner-title {
   font-size: 3.4rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: var(--mainSpacing);
   margin-bottom: 3rem;
 }
