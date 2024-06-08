@@ -23,7 +23,7 @@ class Products{
           let data = await result.json();
           let products = data.items;
           products = products.map(item =>{
-            const {title,price}= item.fields;
+            const {title,size,price}= item.fields;
             const {id} = item.sys;
             const image =item.fields.image.fields.file.url;
             return {title,size,price,id,image}
