@@ -223,6 +223,7 @@ class Storage{
     return localStorage.getItem('cart')?JSON.parse(localStorage.getItem('cart')):[] 
  }
 }
+
 document.addEventListener("DOMContentLoaded",()=>{
  const ui= new UI();
  const products = new Products();

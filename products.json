@@ -44,7 +44,7 @@
       "sys": { "id": "6" },
       "fields": {
         "title": "Strawberry Rush",
-        "price": 7,
+        "price": 8,
         "image": { "fields": { "file": { "url": "./images/strawberry.png" } } }
       }
     },
