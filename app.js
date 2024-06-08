@@ -51,7 +51,7 @@ class UI{
                    </button>
                </div> 
                <h3>${product.title}</h3>
-               <h4>${product.size}</h4>
+               <h5>${product.size}</h5>
                <h2>$${product.price}</h2>
       </article>  
      ` ; 
