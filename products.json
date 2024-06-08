@@ -27,7 +27,7 @@
     {
       "sys": { "id": "4" },
       "fields": {
-        "title": "Mango Tango",
+        "title": "MangoLicious",
         "price": 8,
         "image": { "fields": { "file": { "url": "./images/mango.png" } } }
       }
@@ -43,7 +43,7 @@
     {
       "sys": { "id": "6" },
       "fields": {
-        "title": "Tangy Strawberry",
+        "title": "Strawberry Rush",
         "price": 7,
         "image": { "fields": { "file": { "url": "./images/strawberry.png" } } }
       }
@@ -51,13 +51,37 @@
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "Sweet Pomegranate",
+        "title": "BlueBerry Blast",
+        "price": 8,
+        "image": { "fields": { "file": { "url": "./images/blueberry.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Raspberry Fizz",
+        "price": 8,
+        "image": { "fields": { "file": { "url": "./images/raspberry.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "Crazy Berries",
+        "price": 8,
+        "image": { "fields": { "file": { "url": "./images/berries.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "Pomegranate Passion",
         "price": 8,
         "image": { "fields": { "file": { "url": "./images/pomegranate.png" } } }
       }
     },
     {
-      "sys": { "id": "8" },
+      "sys": { "id": "11" },
       "fields": {
         "title": "Cumin (Jeera) Masala",
         "price": 8,
@@ -65,35 +89,19 @@
       }
     },
     {
-      "sys": { "id": "9" },
-      "fields": {
-        "title": "Berry Burst",
-        "price": 8,
-        "image": { "fields": { "file": { "url": "./images/blueberry.png" } } }
-      }
-    },
-    {
-      "sys": { "id": "10" },
-      "fields": {
-        "title": "Assorted 3 Packs",
-        "price": 20,
-        "image": { "fields": { "file": { "url": "./images/3packs.png" } } }
-      }
-    },
-    {
-      "sys": { "id": "11" },
-      "fields": {
-        "title": "Assorted 5 Packs",
-        "price": 30,
-        "image": { "fields": { "file": { "url": "./images/5packs.png" } } }
-      }
-    },
-    {
       "sys": { "id": "12" },
       "fields": {
-        "title": "Assorted 10 Packs",
-        "price": 50,
-        "image": { "fields": { "file": { "url": "./images/10packs.png" } } }
+        "title": "Spicy Mango",
+        "price": 8,
+        "image": { "fields": { "file": { "url": "./images/jalapeno_mango.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "13" },
+      "fields": {
+        "title": "Tamarind Delight",
+        "price": 8,
+        "image": { "fields": { "file": { "url": "./images/tamarind.png" } } }
       }
     }
   ]
