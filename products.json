@@ -93,7 +93,7 @@
     {
       "sys": { "id": "11" },
       "fields": {
-        "title": "Cumin (makes Jeera) Masala",
+        "title": "Cumin (Jeera) Masala",
         "price": 8,
         "size": "Premium Flavor<br />8oz (makes 8 to 10 cups)",
         "image": { "fields": { "file": { "url": "./images/cumin.png" } } }
