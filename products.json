@@ -120,19 +120,19 @@
     {
       "sys": { "id": "14" },
       "fields": {
-        "title": "Standard Flavor: Large Pack",
-        "size": "Party Pack<br />30oz (makes 30 to 35 cups)",
-        "price": 18,
-        "image": { "fields": { "file": { "url": "./images/large_standard.png" } } }
+        "title": "Standard Flavor: 5 Pack (assorted)",
+        "size": "Party Pack<br />40oz (makes 40 to 45 cups)",
+        "price": 30,
+        "image": { "fields": { "file": { "url": "./images/multi-standard.png" } } }
       }
     },
     {
       "sys": { "id": "15" },
       "fields": {
-        "title": "Premium Flavor: Large Pack",
-        "size": "Party Pack<br />30oz (makes 30 to 35 cups)",
-        "price": 20,
-        "image": { "fields": { "file": { "url": "./images/large_premium.png" } } }
+        "title": "Premium Flavor: 5 Pack (assorted)",
+        "size": "Party Pack<br />40oz (makes 40 to 45 cups)",
+        "price": 35,
+        "image": { "fields": { "file": { "url": "./images/multi-premium.png" } } }
       }
     }
   ]
